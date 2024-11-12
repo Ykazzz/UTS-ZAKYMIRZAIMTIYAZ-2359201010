@@ -1,0 +1,84 @@
+body {
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-image: url(pic/top.jpg);
+    
+}
+
+.container {
+    margin: 20px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+nav {
+    background-color: #00acfc67;
+    height: 40px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    flex: 1;
+    margin: 40px;
+    max-width: 400px;
+    height: 20px;
+}
+.top h1{
+    font-family: "Kaushan Script", cursive;
+    font-weight: 0;
+    font-style: normal;
+    font-size: 55px;
+    color: aliceblue;
+    
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    color: #000000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 550px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgb(240, 211, 211);
+}
+.home a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 35px;
+    margin: 0px;
+}
+
+a:hover{
+    background: rgba(1, 181, 252, 0.349);
+    border-radius: 11px;
+}
+
+.banner {
+    width: 100px;
+    height: 70px;
+}
+
